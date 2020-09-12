@@ -29,3 +29,4 @@ urlpatterns = [
     url(r'^home$', HelloDjangoApp.views.index, name='home'),
     url(r'^about$', HelloDjangoApp.views.about, name='about'),
     ]
+    
